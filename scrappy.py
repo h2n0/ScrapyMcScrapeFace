@@ -1,6 +1,5 @@
 import urllib2
 import os, sys, time, json
-import settings
 
 pos = os.getcwd()
 count = 0
@@ -14,7 +13,7 @@ def makeFolder(sub):
   global cd
   cd = sub
   if not (os.path.exists(pos + "/" + cd)):
-    os.mkdir(pos+"/"+cd, 0777)
+    os.mkdir(pos+"/"+cd, 777)
 
 
 #Just saves the image		
