@@ -1,10 +1,11 @@
 import urllib2
 import os, sys, time, json
+import settings
 
 pos = os.getcwd()
 count = 0
 cd = ""
-clientID = "2e7fa5b951e0a44"
+clientID = settings.key
 ## clientSecret = "e657a81a61f6fcc792a7f0585d2949fe1b67e786"
 
 		
