@@ -1,5 +1,6 @@
-import urllib2
+import urllib
 import os, sys, time, json
+import settings
 
 pos = os.getcwd()
 count = 0
